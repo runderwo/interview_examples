@@ -15,7 +15,7 @@ BREADTH = 5
 
 
 class Spider():
-    def __init__(self, depth=10, breadth=5):
+    def __init__(self, depth=10, breadth=BREADTH):
         self.depth = depth
         self.breadth = breadth
 
